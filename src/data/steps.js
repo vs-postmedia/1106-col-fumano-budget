@@ -1,5 +1,6 @@
 export default [
-    '<span class="scroll-more">Scroll for more...</span>',
+    // '<span class="scroll-more">Scroll for more...</span>',
+    '',
     '',
     '',
     '',

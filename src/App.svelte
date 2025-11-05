@@ -32,6 +32,8 @@
             updateStep(currentStep );
         } else if (currentStep === 3) {
             updateStep(currentStep);
+        } else if (currentStep === 4) {
+            updateStep(currentStep);
         }
     };
 </script>
@@ -40,7 +42,7 @@
 <section class="scrollyteller sticky">
     <header>
         <h1>Vancouver looks to cut $50 million in spending</h1>
-        <p class="subhead">Changes in spending for Vancouver’s 2026 budget compared to the current year. All values in millions of dollars.</p>
+        <p class="subhead">Changes in spending proposed for Vancouver’s 2026 draft budget compared to the current year, in millions of dollars.</p>
     </header>
     <div class="chart sticky">
         <!-- svelte-ignore a11y-missing-attribute -->
@@ -69,6 +71,9 @@
     /* STEPS */
     section {
         position: relative;
+    }
+    section header {
+        margin-bottom: 15px;
     }
     .sticky { 
         align-items: center;
