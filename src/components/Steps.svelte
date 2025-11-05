@@ -29,14 +29,14 @@
         transition: opacity 300ms ease;
     }
     .step:first-of-type {
-        top: -50%;
+        top: -60%;
         opacity: 1;
     }
     .step.active {
         opacity: 1;
     }
     .step-content {
-        background: rgba(255,255,255,0.85);
+        /* background: rgba(255,255,255,0.85); */
         padding: 0.75rem 1rem;
         max-width: 80%;
     }

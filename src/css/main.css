@@ -1,6 +1,7 @@
 .scroll-more {
     display: block;
     font-family: BentonSansCond-BoldItalic;
+	font-size: 1.35rem;
     margin-top: 10px;
     text-align: center;
 }
